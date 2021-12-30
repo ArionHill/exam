@@ -8,7 +8,8 @@ typedef struct Row
     int b; 
 } Row;
 
-bool cmp_func(const Row &lv, const Row &rv) {
+bool cmp_func(const Row &lv, const Row &rv) 
+{
     if (lv.a < rv.a) {
         return true;
     } else {
